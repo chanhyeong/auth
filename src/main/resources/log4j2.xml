@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" strict="true">
+    <Filter type="ThresholdFilter" level="debug" />
+
+    <Appenders>
+        <Appender type="Console" name="STDOUT">
+            <Layout type="PatternLayout" pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+        </Appender>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.chanhyeong.wiki.auth" level="debug" additivity="false">
+            <Filter type="ThreadContextMapFilter">
+                <KeyValuePair key="test" value="123" />
+            </Filter>
+            <AppenderRef ref="STDOUT" />
+        </Logger>
+
+        <Root level="debug">
+            <AppenderRef ref="STDOUT" />
+        </Root>
+    </Loggers>
+
+</Configuration>

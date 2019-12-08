@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: local
+    include: database, logging, cache
+server:
+  port: 10080
