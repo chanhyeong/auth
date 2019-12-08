@@ -30,9 +30,9 @@ spring:
   profiles: dev
 
   datasource:
-    jdbcUrl:
-    username:
-    password:
+    jdbcUrl: jdbc:mysql://chanhyeong.cwwgpttnmgxq.ap-northeast-2.rds.amazonaws.com:3306/auth?characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: developer
+    password: roqkfwkrPwjd!#
     driverClassName: com.mysql.jdbc.Driver
     maximumPoolSize: 10
     minimumIdle: 10
