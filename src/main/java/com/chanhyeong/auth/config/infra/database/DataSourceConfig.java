@@ -1,4 +1,4 @@
-package com.chanhyeong.wiki.config.infra.database;
+package com.chanhyeong.auth.config.infra.database;
 
 import com.zaxxer.hikari.*;
 import org.springframework.boot.context.properties.*;
@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.namedparam.*;
 import javax.sql.*;
 
 @Configuration
-@EnableJdbcRepositories(basePackages = {"com.chanhyeong.wiki"})
+@EnableJdbcRepositories(basePackages = {"com.chanhyeong.auth"})
 public class DataSourceConfig {
 
 	@Bean

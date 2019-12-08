@@ -1,9 +1,8 @@
-package com.chanhyeong.wiki.auth.model.oauth;
+package com.chanhyeong.auth.model.oauth;
 
-import lombok.Getter;
+import lombok.*;
 
-import java.util.Arrays;
-import java.util.Optional;
+import java.util.*;
 
 @Getter
 public enum OAuthProvider {

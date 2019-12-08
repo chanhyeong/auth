@@ -1,4 +1,4 @@
-package com.chanhyeong.wiki.auth.model.oauth;
+package com.chanhyeong.auth.model.oauth;
 
 import lombok.*;
 import org.springframework.data.relational.core.mapping.*;

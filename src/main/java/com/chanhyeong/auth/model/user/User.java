@@ -1,4 +1,4 @@
-package com.chanhyeong.wiki.auth.model.user;
+package com.chanhyeong.auth.model.user;
 
 import lombok.*;
 import org.springframework.data.annotation.*;
@@ -6,7 +6,7 @@ import org.springframework.data.relational.core.mapping.*;
 
 import java.time.*;
 
-import static com.chanhyeong.wiki.config.infra.helper.AssertUtils.notBlank;
+import static com.chanhyeong.auth.config.infra.helper.AssertUtils.notBlank;
 import static org.springframework.util.Assert.notNull;
 
 @Table("user")
